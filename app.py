@@ -19,7 +19,7 @@ random_state = st.sidebar.number_input("Random State", value=42)
 test_size = st.sidebar.slider("Test Set Size", 0.1, 0.5, 0.2, step=0.05)
 
 # Option: use default or upload
-use_default = st.checkbox("Use default dataset (gene_sequence_dataset_1000.csv)")
+use_default = st.checkbox("Use default dataset (gene_sequence_dataset_1000_modified.csv)")
 
 # Load dataset
 df = None
